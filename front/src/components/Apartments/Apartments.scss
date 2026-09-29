@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     gap: 30px;
-    margin-top: 5%;
+    margin-top: 7%;
     padding-inline: 6%;
 }
 .apart-title{
@@ -10,7 +10,7 @@
     background: linear-gradient(
         90deg,
         #222222,
-        #777676
+        #949494
     );
     background-clip:text ;
     color: transparent;
@@ -40,5 +40,8 @@
 
 .apartment-cards{
     display: flex;
-    justify-content: space-between;
+    gap: 15px;
+    margin-inline:6%;
+    position: relative;
+    bottom: 50px;
 }

@@ -1,5 +1,21 @@
-.category-cards{
-    width:80px;
-    height: 160px;
+.category-img{
+    width: 250px;
+    height: 500px;
+    transition: transform 0.3s ease;
     border-radius: 10px;
+}
+.category-img:hover{
+    transform: scale(1.05);
+}
+
+.category-name{
+    text-align: center;
+    margin-block: 30px;
+    background: linear-gradient(
+        90deg,
+        #252525,
+        #777676
+    );
+    background-clip:text ;
+    color: transparent;
 }

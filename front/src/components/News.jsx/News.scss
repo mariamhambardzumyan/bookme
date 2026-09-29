@@ -1,0 +1,14 @@
+.news-content{
+    display:flex ;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.news-title{
+    font-size: 40px;
+}
+
+.news-text{
+    font-size: 30px;
+    max-width: 650px;
+}
