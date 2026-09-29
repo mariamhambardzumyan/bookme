@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import SearchBar from "../../components/SearchBar/SearchBar";
 import HotelSlider from '../../components/HotelSlider/HotelSlider';
 import Apartments from '../../components/Apartments/Apartments';
-import News from '../../components/News.jsx/News';
+import News from '../../components/News/News';
 
 
 const Home = () => {
