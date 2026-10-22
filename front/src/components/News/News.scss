@@ -1,14 +1,57 @@
 .news-content{
     display:flex ;
     flex-direction: column;
-    gap: 10px;
+    gap: 20px;
 }
-
+.news{
+    padding: 6%;
+    background-color: #252525;
+}
 .news-title{
     font-size: 40px;
+    color:#F6F6F6;   
 }
 
 .news-text{
+    color: #F6F6F6;
     font-size: 30px;
     max-width: 650px;
+}
+
+.news-input-email{
+    margin-top:60px;
+}
+.news-input{
+    border-radius: 12px;
+    padding:16px;
+    width: 500px;
+    border: none;
+}
+.email-sbs-group{
+    display: flex;
+    flex-direction: r;
+}
+
+.subscribe-btn{
+    margin-top:60px;
+    margin-left: 10px;
+    width: 180px;
+    background-color: #C49C74;
+    border: none;
+    border-radius: 12px;
+    color: #252525;
+padding:16px;
+}
+.about-privacy{
+    margin-top:10px ;
+    display: flex;
+    gap: 10px;
+}
+.about-privacy p{
+    font-size: 18px;
+    color: #F6F6F6;
+}
+.about-privacy a{
+    font-size: 18px;
+    color:#C49C74;
 }
